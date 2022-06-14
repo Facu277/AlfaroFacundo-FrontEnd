@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    /* background-color: rgb(25, 25, 26); */
+    background-color: rgb(19, 16, 16);
+}
+
+
+header .cointainer-fluid {
+    display: flex;
+    
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: rgb(38, 39, 38);
+}
+
+/* Estilo del logo y titulo #YoProgramo */
+.cointainer-fluid .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 21%;
+    margin-left: 1%;
+}
+
+.cointainer-fluid .logo .logo-img {
+    width: 60px;
+    height: 60px;
+}
+
+.cointainer-fluid .logo .logo-img img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.cointainer-fluid .logo .title h3{
+    font-size: 1em;
+    color: white;
+}
+
+/* Estilo de botones redes sociales y login */
+.cointainer-fluid .social-networks {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+    width: 21%;
+    margin-right: 1%;
+}
+
+.cointainer-fluid .social-networks .social {
+    display: flex;
+    width: 45%;
+    justify-content: space-evenly;
+}
+
+.cointainer-fluid .social-networks .social img{
+    width: 35px;
+    height: 35px;
+    position: relative;
+}
+
+.cointainer-fluid .social-networks .login {
+    width: 25%;
+}
+
+.cointainer-fluid .social-networks .login button {
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background-color: rgb(224, 203, 159);
+}
+
+/* Estilo de banner */
+header .banner {
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header .banner .img-banner {
+    width: 90%;
+    height: 450px;
+    
+}
+
+header .banner .img-banner img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Estilo de foto y titulo */
+.container-fluid {
+    width: 100%;
+   /*  border: 1px solid white; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.container-fluid .acerca {
+    width: 95%;
+    /* height: 450px; */
+    margin: 0.5%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(30, 31, 30);
+    border: 3px solid rgb(32, 34, 26);
+    border-radius: 50px;
+}
+
+.container-fluid .acerca .profile {
+    position: relative;
+    /* border: 1px solid yellow; */
+    width: 30%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.container-fluid .acerca .profile .foto {
+    width:50%;
+    border-radius: 100px;
+    position: absolute;
+    bottom: 55%;
+}
+
+.container-fluid .acerca .profile .foto img {
+    width: 100%;
+    border-radius: 100px;
+}
+
+/* Estilo de titulo */
+.container-fluid .acerca .profile .title {
+    text-align: center;
+    margin-bottom: 2%;
+    /* border: 1px solid blue; */
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.container-fluid .acerca .profile .title h2{
+    font-weight: bolder;
+}
+.container-fluid .acerca .profile .title h2 {
+    font-size: 1.4em;
+    color: aqua;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+/* Estilo del parrafo Sobre mi */
+.container-fluid .acerca .acerca-de-mi {
+    width: 60%;
+    border: 1px solid green;
+    margin-right: 4%;
+}
+
+.container-fluid .acerca .acerca-de-mi h4 {
+    font-size: 1.8em;
+    padding: 2%;
+    color: azure;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-fluid .acerca .acerca-de-mi p {
+    font-size: 1.1em;
+    padding: 1%;
+    color: rgb(241, 235, 234);
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Estilo de Formacion academica */
+.container-fluid{border:1px solid blue;}
+.container-fluid .formacion-academica {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid green;
+    width: 95%;
+}
+
+.container-fluid .formacion-academica .titulo-form{
+    font-size: 1.8em;
+    margin: 1%;
+    color: azure;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid blue;
+}
+
