@@ -26,7 +26,7 @@ header .cointainer-fluid {
     align-items: center;
     justify-content: space-between;
     height: 50px;
-    width: 21%;
+    width: 24%;
     margin-left: 1%;
 }
 
@@ -185,21 +185,15 @@ header .banner .img-banner img {
 }
 
 
-/* Estilo de Formacion academica */
-.container-fluid{border:1px solid blue;}
-.container-fluid .formacion-academica {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid green;
-    width: 95%;
-}
+/* edita Parrafo */
 
-.container-fluid .formacion-academica .titulo-form{
-    font-size: 1.8em;
-    margin: 1%;
-    color: azure;
-    text-align: center;
+.container-fluid .acerca .acerca-de-mi .editarParrafo{
+    font-size: 1.1em;
+    padding: 1%;
+    color: rgb(241, 235, 234);
+    text-align: justify;
     font-family: 'Roboto', sans-serif;
-    border: 1px solid blue;
+    width: 100%;
+    height: 500px;
+    background-color: black;
 }
-
