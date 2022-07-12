@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,400;1,500;1,600&display=swap');
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif!important;
+}
+
+
+.contenedor {
+    display: flex;
+    border: 1px solid blue;
+    flex-direction: column;
+}
+
+
+/* Estilos de la cabecera */
+.container-nav {
+    display: flex;
+    border: 1px solid green;
+    width: 100%;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-img {
+    display: flex;
+    border: 1px solid black;
+    width: 30%;
+    justify-content: space-around;
+    align-items: center ;
+
+}
+
+.logo-img h5 {
+    font-size: 1.2em;
+}
+.logo-img img {
+    width: 60px;
+}
+
+/* Estilos de redes sociales y login */
+
+.redes-login {
+    display: flex;
+    width: 30%;
+    border: 1px solid brown;
+    justify-content:space-around;
+}
+
+.red-social {
+    border: 2px solid blue;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+.red-social button {
+    font-size: 2em;
+    border: none;
+    text-align: center;
+    margin: 0 2%;
+    color: blue;
+    background: none;
+}
+
+
+
+
+
+
+/* Estilos de contenedor boton login */
+.container-login{
+    display: flex;
+    width: 20%;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-login .btn-login {
+    height: 60%;
+    width: 100%;
+    border-radius: 10%;
+    font-weight: 700;
+}
+
+
+
+
+
+/* Estilos de la seccion banner */
+
+.seccion-banner {
+    display: flex;
+    border: 1px solid green;
+    margin: 2%;
+    /* height: 80vh; */
+    padding: 10% 0;
+    background: rgba(0, 0, 0, 0.7);
+    background-image: url(assets/banner/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    
+    align-items: center;
+}
+
+.card-perfil {
+    /* height: 70%; */
+    width: 100%;
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-profile {
+    width: 240px;
+}
+
+.img-profile img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.nombre-titulo {
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid yellow;
+    margin: 0;
+    padding: 0;
+}
+
+.nombre-titulo h1 {
+    margin: 0;
+    font-size: 2.8em;
+}
+
+.nombre-titulo h2 {
+    font-size: 2em;
+    margin: 10px;
+}
+
+
+
+
+/* Seccion sobre mi */
+
+.seccion-sobremi {
+    display: flex;
+    border: 1px solid black;
+    /* height: 80vh; */
+    margin: 2%;
+    flex-direction: column;
+}
+
+.titulo-sobremi {
+    display: flex;
+    border: 1px solid blue;
+}
+
+.titulo-sobremi h4 {
+    font-size: 1.5em;
+    font-weight: 800;
+    margin: 1% 5% 1% 5%;
+}
+
+.texto-sobremi {
+    margin: 1% 5%;
+    text-align: justify;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+
+
+/* Estilo de seccion educacion */
+
+.seccion-educacion {
+    display: flex;
+    border: 1px solid black;
+    /* height: 80vh; */
+    margin: 2%;
+    flex-direction: column;
+}
+
+.titulo-educacion h4 {
+    font-size: 1.5em;
+    font-weight: 800;
+    margin: 1% 5% 1% 5%;
+}
+
+
+/* estilos card de educacion */
+.card-educacion {
+    margin: 4%;
+}
+
+
+
+
+
+
+
+
+
+/* Estilos de contenedor de Conocimientos */
+
+.contenedor-conocimientos {
+    display: flex;
+    border: 1px solid black;
+    height: 80vh;
+    margin: 2%;
+    flex-direction: column;
+}
+
+.titulo-conocimientos {
+    display: flex;
+}
+
+.titulo-conocimientos h4 {
+    font-size: 1.5em;
+    font-weight: 800;
+    margin: 1% 5% 1% 5%;
+}
+
+.habilidades {
+    margin: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Ejemplo de circulos
+ */
+.card-habilidades {
+    position: relative;
+    width: 250px;
+    background: linear-gradient(0deg,#1b1b1b,#222,#1b1b1b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    border-radius: 4px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.card-habilidades:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0,0,0,.0);
+}
+
+.card-habilidades:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255, .03);
+    pointer-events: none;
+    z-index: 1;
+}
+
+.porcentaje {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 50px #000;
+    background: #222;
+    z-index: 1000;
+}
+
+.porcentaje .numero {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.porcentaje .numero h6 {
+    color: #777;
+    font-weight: 700;
+    font-size: 40px;
+    transition: 0.5s;
+}
+
+.card-habilidades:hover .porcentaje .numero h6 {
+    color: #fff;
+    font-size: 60px;
+}
+
+.porcentaje .numero h6 span {
+    font-size: 24px;
+    color: #777;
+    transition: 0.5s;
+}
+
+.texto {
+    position: relative;
+    color: #777;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    margin-top: 20px;
+}
+
+.card-habilidades:hover .porcentaje .numero h6 span {
+    color: #fff;
+
+}
+
+
+
+ svg {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    z-index: 1000;
+ }
+
+ svg circle {
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke: #191919;
+    stroke-width: 10;
+    stroke-linecap: round;
+    transform: translate(5px,5px);
+ }
+
+ svg circle:nth-child(2) {
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+ }
+
+ .card-habilidades:nth-child(1) svg circle:nth-child(2) {
+    stroke: #00ff43;
+    stroke-dashoffset: calc(440 - (440*50)/100);
+ }
+
+ .card-habilidades:nth-child(2) svg circle:nth-child(2) {
+    stroke: #00a1ff;
+ }
+
+ .card-habilidades:nth-child(3) svg circle:nth-child(2) {
+    stroke: #00ff43;
+ }
+
+
+
+
+
+
+
+
+
