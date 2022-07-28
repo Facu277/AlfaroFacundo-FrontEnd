@@ -238,7 +238,10 @@ body{
 
 
 
-
+.contenedor-desarrollo {
+    display: flex;
+    border: 1px solid blue;
+}
 
 
 
