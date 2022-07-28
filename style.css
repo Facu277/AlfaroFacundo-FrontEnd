@@ -220,6 +220,7 @@ body{
     height: 80vh;
     margin: 2%;
     flex-direction: column;
+   
 }
 
 .titulo-conocimientos {
@@ -232,32 +233,11 @@ body{
     margin: 1% 5% 1% 5%;
 }
 
-.habilidades {
-    margin: 5%;
-}
 
-
-.contenedor-desarollo-web {
-    border: 5px solid blue;
+.contenedor-desarollo {
+    border: 1px solid black;
+    margin: 1% 3%;
     display: flex;
-    flex-direction: column;
-}
-
-.titulo-desarrollo-web h5 {
-    font-size: 1.2em;
-    font-weight: 500;
-    margin: 1% 5% 1% 5%;
-}
-
-
-.habilidades {
-    border: 3px solid green;
-    display: flex;
-}
-
-.contenedor-desarrollo {
-    display: flex;
-    border: 1px solid blue;
 }
 
 
