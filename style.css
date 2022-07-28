@@ -240,8 +240,17 @@ body{
     display: flex;
 }
 
+.contenedor-desarrollo {
+    display: flex;
 
+}
 
+.habilidad {
+    border: 5px solid black;
+    border-radius: 100%;
+    padding: 30%;
+    display: flex;
+}
 
 
 
